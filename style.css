@@ -1,0 +1,98 @@
+        body {
+            background: linear-gradient(135deg, #d63737, #3a3939);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        /* ----- H1 ----- */
+        h1 {
+            text-align: center;
+            transition: all 1s ease;
+            color: white;
+        }
+
+        h1:hover {
+            color: gray;
+            font-size: 45px;
+        }
+
+        /* ----- H3 ----- */
+        h3 {
+            display: block;
+            text-align: center;
+            transition: all 0.5s ease;
+            color: white;
+        }
+
+        /* ----- FORM ----- */
+        form {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 400px;
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        select,
+        textarea {
+            padding: 10px;
+            border: 2px solid #ff0000;
+            border-radius: 8px;
+            font-size: 16px;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus,
+        select:focus,
+        textarea:focus {
+            border-color: #830b0b;
+            box-shadow: 0 0 5px rgba(131, 11, 11, 0.5);
+            outline: none;
+        }
+
+        button {
+            display: block;
+            margin: 20px auto 0 auto;
+            padding: 12px 25px;
+            background-color: #ff0000;
+            color: white;
+            border: 2px solid #ff0000;
+            border-radius: 8px;
+            cursor: pointer;
+            transform: translateX(-5px);
+            transition: all 0.3s ease;
+            font-size: 16px;
+            box-shadow: 5px 5px 5px rgb(56, 0, 0);
+        }
+
+        button:hover {
+            transform: translateX(0);
+            background-color: rgb(83, 11, 11);
+            color: #ff0000;
+            box-shadow: 2px 2px 5px gray;
+        }
+
+        p {
+            text-align: center;
+            margin-top: 15px;
+            color: white;
+            font-size: 0.9em;
+        }

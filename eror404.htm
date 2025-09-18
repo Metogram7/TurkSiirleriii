@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hata Bildirimi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="font-size: 5pc;">EROR 404</h1>
+    <br>
+    <h3>Geliştiricilerimiz bununla ilgili video bulamadı, yakında düzelecek.</h3>
+
+    <hr>
+
+    <h2>Hata Bildirim Formu</h2>
+    <form action="https://formspree.io/f/mayourformid" method="POST">
+        <label for="ad">Adınız:</label><br>
+        <input type="text" id="ad" name="ad" required><br><br>
+
+        <label for="soyad">Soyadınız:</label><br>
+        <input type="text" id="soyad" name="soyad" required><br><br>
+
+        <label for="hata">Sitede bir hata gördünüz mü?</label><br>
+        <select id="hata" name="hata" required>
+            <option value="">Seçiniz</option>
+            <option value="Evet">Evet</option>
+            <option value="Hayır">Hayır</option>
+        </select><br><br>
+
+        <label for="detay">Bu sayfaya neden geldiniz ? hata nedir?</label><br>
+        <textarea id="detay" name="detay" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Gönder</button>
+    </form>
+
+    <p style="color: black;">
+        Formu yazıp gönderdiğinizde, geliştiricimizin E-Postasına gidicektir. %100 güvenli ve gizli olucaktır.
+    </p>
+</body>
+</html>
